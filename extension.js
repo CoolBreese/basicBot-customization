@@ -95,7 +95,7 @@
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: killion.co,
+      rulesLink: http:killion.co,
       themeLink: null,
       fbLink: null,
       youtubeLink: null,
