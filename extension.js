@@ -95,7 +95,7 @@
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: http://killion.co/index.php?threads/killion-plug-dj.1032/,
+      rulesLink: killion.co,
       themeLink: null,
       fbLink: null,
       youtubeLink: null,
