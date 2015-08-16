@@ -46,37 +46,37 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "KillionBot",
+      botName: "basicBot",
       language: "english",
-      chatLink: "https://rawgit.com/CoolBreese/basicBot/master/lang/en.json",
-      scriptLink: "https://rawgit.com/CoolBreese/basicBot/master/basicBot.js",
+      chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+      scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
       autowoot: true,
       autoskip: false,
-      smartSkip: false,
+      smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 120,
-      afkRemoval: false,
+      afkRemoval: true,
       maximumDc: 60,
-      bouncerPlus: false,
+      bouncerPlus: true,
       blacklistEnabled: true,
       lockdownEnabled: false,
       lockGuard: false,
       maximumLocktime: 10,
       cycleGuard: true,
-      maximumCycletime: 8,
+      maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
       historySkip: false,
-      timeGuard: false,
+      timeGuard: true,
       maximumSongLength: 10,
-      autodisable: false,
+      autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
-      skipPosition: 5,
+      skipPosition: 3,
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
@@ -88,9 +88,9 @@
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
-      motdEnabled: true,
+      motdEnabled: false,
       motdInterval: 5,
-      motd: "Testing",
+      motd: "Temporary Message of the Day",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -105,13 +105,13 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/CoolBreese/basicBot-customization/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/CoolBreese/basicBot-customization/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/CoolBreese/basicBot-customization/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/BANNEDlist.json"
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/CoolBreese/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
 
 }).call(this);
