@@ -99,7 +99,7 @@
       themeLink: null,
       fbLink: null,
       youtubeLink: null,
-      website: null,
+      website: killion.co,
       intervalMessages: [],
       messageInterval: 5,
       songstats: true,
