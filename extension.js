@@ -46,32 +46,32 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "KDCBOT",
+      botName: "KillionBot",
       language: "english",
       chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
       scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
+      startupCap: 200, // 1-200
+      startupVolume: 75, // 0-100
       startupEmoji: false, // true or false
       autowoot: true,
       autoskip: false,
-      smartSkip: true,
+      smartSkip: false,
       cmdDeletion: true,
       maximumAfk: 120,
-      afkRemoval: true,
+      afkRemoval: false,
       maximumDc: 60,
-      bouncerPlus: true,
+      bouncerPlus: false,
       blacklistEnabled: true,
       lockdownEnabled: false,
-      lockGuard: false,
+      lockGuard: true,
       maximumLocktime: 10,
       cycleGuard: true,
-      maximumCycletime: 10,
+      maximumCycletime: 8,
       voteSkip: false,
       voteSkipLimit: 10,
       historySkip: false,
-      timeGuard: true,
+      timeGuard: false,
       maximumSongLength: 10,
       autodisable: true,
       commandCooldown: 30,
@@ -88,9 +88,9 @@
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
-      motdEnabled: false,
-      motdInterval: 5,
-      motd: "Temporary Message",
+      motdEnabled: true,
+      motdInterval: 10,
+      motd: "Be sure to invite your friends and follow all the rules!",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
