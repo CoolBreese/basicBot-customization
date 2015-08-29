@@ -19,7 +19,7 @@
         //Extend the bot here, either by calling another function or here directly.
 
         // You can add more spam words to the bot.
-        var spamWords = ['spam1', 'spam2', 'spam3', 'spam4'];
+        var spamWords = ['nigger', 'nigga', 'gay', 'cunt', 'porn'];
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "Bot",
+      botName: "Chat Bot",
       language: "english",
       chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
       scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
